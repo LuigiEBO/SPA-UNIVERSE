@@ -1,0 +1,58 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+:root {
+  font-size: 62.5%;
+}
+body {
+  background-image: url(./assets/mountains-universe-1\ 1.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: "Poppins", sans-serif;
+  height: 100%;
+  width: 100%;
+}
+nav {
+  display: flex;
+  align-items: center;
+  gap: 3rem;
+  padding: 64px;
+}
+a {
+  color: #C4C4CC;
+  text-decoration: none;
+  font-size: 2rem;
+}
+.center {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 12rem;
+}
+.center h1 {
+  color: #E1E1E6;
+  font-size: 6rem;
+}
+.center a {
+  color: #fff;
+  border: 2px solid #fff;
+  border-radius: 8px;
+  font-size: 1.5rem;
+  font-weight: bold;
+  padding:1.6rem 3.2rem;
+  width: 21rem;
+}
+.text {
+  padding: 6.4rem 9rem;
+}
+.text h1 {
+  color: #E1E1E6;
+  font-size: 4rem;
+}
+.text p {
+  color: #E1E1E6;
+  font-size: 1.6rem;
+  width: 64rem;
+}
